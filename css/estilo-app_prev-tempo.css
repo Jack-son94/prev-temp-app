@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lobster&family=Metal+Mania&family=Red+Hat+Display:wght@500;700;900&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.conteudo {
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.info-umidade, 
+.estado-do-tempo,
+.temperatura,
+.cidade,
+.busca-cidade {
+    color: #ffffff;
+}
+
+.img-icone_estado-tempo,
+.temperatura, .info-umidade{
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.busca-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    width: calc(100% - 60px);
+}
+
+.botao-buscar{
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    margin-left: 10px;
+    background-color:#7c7c7c2b;
+}
+
+.img-buscar {
+    width: 20px;
+}
+
+.informacoes-do-tempo {
+    margin-top: 30px;
+}
+
+.cidade {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.temperatura {
+    font-size: 20px;
+}
+
+.img-icone_estado-tempo, body {
+    display: flex;
+    align-items: center;
+}
+
+.estado-do-tempo {
+    margin-left: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.temperaturas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

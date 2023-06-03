@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+
+    <link rel="stylesheet" href="./css/estilo-app_prev-tempo.css">
+
+    <script src="./javaScript/script-prev-tempo.js" defer></script>
+</head>
+
+<body>
+    <div class="conteudo">
+
+        <input class="busca-cidade" placeholder="Digite o nome da cidade">
+        <button class="botao-buscar" onclick="pesquisaDoUsuario()">
+            <img class="img-buscar" src="https://www.svgrepo.com/show/488200/find.svg" alt="buscar">
+        </button>
+
+        <div class="informacoes-do-tempo">
+            <h2 class="cidade">Tempo em:</h2>
+            <div class="temperaturas">
+                <p id="temperatura" class="temperatura">Temp: 0ºC</p>
+                <p id="maxima" class="temperatura">Max: 0ºC</p>
+                <p id="minima" class="temperatura">Min: 0ºC</p>
+            </div>
+
+            <div class="img-icone_estado-tempo">
+                <img class="icone-nuvem" alt="Incone do Tempo" src="">
+                <p class="estado-do-tempo"></p>
+            </div>
+
+            <p class="info-umidade">Umidade: </p>
+        </div>
+    </div>
+</body>
+
+</html>
